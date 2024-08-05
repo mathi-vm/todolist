@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url('Assets/bg.jpg');
+  background-size: cover; /* Ensures the image covers the whole element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; 
+  background-attachment: fixed;
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.background-image-container {
+  background-image: url('./Assets/bg.jpg');
+  opacity: 90%;
+  background-size: cover; /* Ensures the image covers the whole element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; 
+  
+   /* Adjust as needed */
+}
+.background-image-container1 {
+  background-image: url('./Assets/grass.jpg');
+  opacity: 90%;
+  background-size: cover; /* Ensures the image covers the whole element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+   /* Adjust as needed */
+}
